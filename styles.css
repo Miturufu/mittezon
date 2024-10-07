@@ -1,0 +1,83 @@
+body {
+        background: url("https://felines.neocities.org/bgtile1-ezgif.com-effects.gif") repeat;
+        -webkit-animation: scrolling 1s linear infinite;
+        -moz-animation: scrolling 1s linear infinite;
+        -o-animation: scrolling 1s linear infinite;
+        animation: scrolling 1s linear infinite;
+        background-color: #4a4a4a;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        color: #ffffff;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+header {
+    border-bottom: solid 5px rgb(22, 22, 22);
+    padding: 20px;
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0.52);
+      color: #fff;
+      font-size: 32px;
+      font-family: 'Fira Mono', monospace;
+      letter-spacing: -7px;
+      text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+      
+}
+
+.chamada {
+    background: rgb(34, 34, 34);
+    border-bottom   : solid 5px rgb(22, 22, 22);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.52);
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-top:50px;
+    border-bottom: solid 5px rgb(22, 22, 22);
+    border-top: solid 5px rgb(22, 22, 22);
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgba(255, 255, 255, 0.775);
+}
